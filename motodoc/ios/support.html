@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="index, follow">
+<title>Support — Moto Doc Inspector</title>
+<style>
+  :root {
+    --ink: #0B1426; --ink2: #4A5878; --ink3: #6B7896;
+    --line: #E5E8EF; --bg: #F2F3F7; --navy: #0B5E49; --accent: #0E7A5F;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6; -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 820px; margin: 0 auto; padding: 32px 20px 80px; }
+  header.page {
+    background: #fff; border: 1px solid var(--line); border-radius: 18px;
+    padding: 28px 28px 22px; margin-bottom: 22px;
+  }
+  .brand { display: flex; align-items: center; gap: 12px; margin-bottom: 14px; }
+  .logo {
+    width: 44px; height: 44px; border-radius: 11px; flex: none;
+    background: linear-gradient(135deg, var(--accent), var(--navy));
+    color: #fff; display: grid; place-items: center; font-weight: 800; font-size: 18px;
+  }
+  h1 { font-size: 24px; margin: 0; letter-spacing: -0.4px; }
+  .sub { color: var(--ink3); font-size: 14px; margin-top: 2px; }
+  .card {
+    background: #fff; border: 1px solid var(--line); border-radius: 18px;
+    padding: 24px 28px; margin-bottom: 18px;
+  }
+  h2 { font-size: 19px; margin: 28px 0 10px; letter-spacing: -0.2px; }
+  h2:first-child { margin-top: 0; }
+  h3 { font-size: 15px; margin: 18px 0 6px; color: var(--accent); }
+  p, li { font-size: 15px; color: var(--ink); }
+  ul { padding-left: 20px; }
+  li { margin-bottom: 6px; }
+  a { color: var(--navy); }
+  .muted { color: var(--ink3); font-size: 13px; }
+  .contact-box { background: #EAF6F1; border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; margin: 12px 0; }
+  footer.page { text-align: center; color: var(--ink3); font-size: 13px; margin-top: 24px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="page">
+    <div class="brand">
+      <div class="logo">MD</div>
+      <div>
+        <h1>Moto Doc Inspector</h1>
+        <div class="sub">Support Center</div>
+      </div>
+    </div>
+  </header>
+
+  <section class="card" id="en">
+    <h2>Contact support</h2>
+    <p>Need help using Moto Doc Inspector? Email us with a description of the issue and your app version. We respond within 1–2 business days.</p>
+    <div class="contact-box">
+      <strong>Support email:</strong> <a href="mailto:tapptech.apps@gmail.com">tapptech.apps@gmail.com</a>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>Frequently asked questions</h2>
+
+    <h3>How do I scan a document?</h3>
+    <p>Open a vehicle, choose the document type (invoice, VNeID, or factory-exit slip) and point the camera at it, or pick an image from your library. The app extracts the fields and cross-checks them across the three sources.</p>
+
+    <h3>Why do you need camera and photo library access?</h3>
+    <p>The camera captures documents; the photo library lets you open existing images. Images stay on your device unless you actively use AI extraction.</p>
+
+    <h3>Is my data safe?</h3>
+    <p>Yes. Vehicle records and images are stored locally on your device and are not sent to our servers. Only when you actively use AI extraction is a document image sent to a third-party AI service to read the fields. See our <a href="privacy.html">Privacy Policy</a>.</p>
+
+    <h3>The AI read a field incorrectly — what do I do?</h3>
+    <p>AI extraction is assistive. Every extracted field can be edited manually before you save. Always review important fields (chassis/engine numbers, ID numbers) against the original document.</p>
+
+    <h3>How do I manage or cancel a subscription?</h3>
+    <p>If you bought a plan, open <em>device Settings → [your Apple ID] → Subscriptions → Moto Doc Inspector</em>. Cancel before the period ends to avoid renewal.</p>
+
+    <h3>I got a new phone — how do I restore my purchases?</h3>
+    <p>Open the plans screen in the app and tap <strong>Restore Purchases</strong>. Your plan is restored via the Apple ID used to buy it.</p>
+  </section>
+
+  <footer class="page">© 2026 Moto Doc Inspector · AppTech Studio. All rights reserved.</footer>
+
+</div>
+</body>
+</html>
